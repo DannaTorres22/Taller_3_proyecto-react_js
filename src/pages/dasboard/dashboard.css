@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+.datos{  
+    background: url(./registro.jpg);
+    background-size: cover;
+    display: flex;
+   
+}.logo-img{
+    width: 30%;
+}
+.formularioDash{
+    background-color: rgba(255, 255, 255, 0.425);
+    margin-left: 22%;
+    margin-top: 3%;
+    border-radius: 5px;
+    width: 75%;
+    height: 90%;
+}.formDah img{
+    width: 20%;
+}.tituloFormulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 2em;
+}.logo-img img{
+    width: 60%;
+}.carga{
+    background-color: var(--azuloscuro);
+    height: 3em;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}.carga i{
+    font-size: 2em;
+    color: #fff;
+}#log-des{
+    margin-right: 20%;
+}.logo-img button{
+    width: 60%;
+    height: 4em;
+    font-size: 1.2em;
+    background-color: var(--negro);
+    color: white;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.info{
+    padding: 5%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+}.formDash{
+    font-size: 1em;
+    width: 65%;
+}
+.docDash{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}.nomDash{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}.origen{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.genero{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.contraDash{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.formDash .inputsDash{
+    margin-top: 4%;
+    font-size: 1em;
+    color: var(--negro2);
+    height: 2em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.719);
+}.formDash label{
+    font-size: 1.2em;
+
+}
+.act button{
+    font-size: 1em;
+    margin-top: 5%;
+    width: 30%;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: var(--negro);
+
+}.cambio button{
+    font-size: 1em;
+    margin-top: 5%;
+    width: 30%;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: var(--negro);
+
+}
+
+#infDash{
+    display: flex;
+    flex-direction: column;
+}#infDash .inputsDash{
+    width: 130%;
+}.radioDash{
+    display: flex;
+    padding: 0em;
+    margin-left: -4%;
+}
+section.menuDashboard{
+    display: flex;
+}
+.menuDashboard{
+    width: 17%;   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+    position: fixed;
+}.mrd{
+    display: flex;
+    flex-direction: column;
+}.mrd a i{
+    display: flex;
+    align-items: center;
+}.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7%;
+    height: 30%;  
+   background-size: cover;
+   background: url(./foto.jpeg);
+}.logo img{
+    width: 60%;   
+}.logo .mobile{
+  display: none;
+}.logo{
+    display: flex;
+    justify-content: center;
+}.desc{
+    display: flex;
+    justify-content: flex-end;
+}.desc img{
+  display: none;
+}.opciones{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(51, 51, 71);
+    display: flex;
+    flex-direction: column;
+}.cerrar{
+  width: 100%;
+}.cerrar a.CerrarDashboard{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    display: flex;
+}
+a.ho{     
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}i#menu{
+   transition: .3s all ease;
+    margin: 5%;
+    color: white;
+    margin-right: 10%;
+}.ho:hover{
+    background-color: var(--azuloscuro);
+    width: 90%;
+    height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 639px){
+    .formularioDash{
+        background-color: rgba(255, 255, 255, 0.445);
+    }
+    .logo .desktop{
+        display: none;
+    }.logo .mobile{
+        display: block;
+    }.desc img{
+        display: block;
+        max-width: 40px;
+        width: 100%;
+        border-radius: 8%;
+    }.desc{
+        justify-content: center;
+        align-items: center;
+    }.desc h3,h4{
+        display: none;
+    }.mrd a p{
+        display: none;
+    }.mrd a{
+        justify-content: center;
+    }.cerrar a p{
+        display: none;
+    }.cerrar a{
+        justify-content: center;
+    }.opciones{
+        justify-content: space-around;
+    }.opciones a i:hover{
+        background: var(--azuloscuro);
+        justify-content: center;
+        width: 100%;
+    }.cerrar a:hover{
+        background: var(--azuloscuro);
+        width: 100%;
+    }.info{
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        
+    }.logo-img{
+        margin-left: 20%;
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .titulo{
+        margin-top: 5%;
+        font-size: 1em;
+        margin-bottom: 5%;
+    }.genero{
+        display: flex;
+        flex-direction: column;
+    }.genero .radioDash{
+    
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
+    }.act button{
+        width: 80%;
+    }.cambio button{
+        width: 80%;
+    }.radioDash{
+        margin-bottom: 3em;
+    }.formDash{
+        width: 80%;
+    }.datos{
+        background: url(./registro.jpg);
+        display: flex;
+       
+    }.genero{
+        width: 75%;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1100px){
+    .datos {
+        height: 247%;
+    }section.menuDashboard{
+        font-size: 0.9em;
+        width: 25%;
+    }.formularioDash{
+        margin-left: 28%;
+        width: 70%;
+    }.info{
+        font-size: 0.8em;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }.logo-img{
+        margin-left: 30%;
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    .datos {
+        background: url(./registro.jpg);
+        background-size: cover;
+        display: flex;
+    }.titulo{
+        margin-top: 5%;
+    }.genero{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        
+    }.genero .radioDash{
+    
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+    }.act button{
+        width:35%;
+    }.cambio button{
+        width:35%;
+    }.radioDash{
+        margin-bottom: 120%;
+    }.formDah {
+        font-size: 1.3em;
+        width: 95%;
+    }#infDash .inputsDash{
+        width: 165%;
+    }
+}

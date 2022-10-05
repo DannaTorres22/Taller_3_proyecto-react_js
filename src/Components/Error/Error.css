@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+*{
+      margin:0;
+}
+.container{
+      width: 100vw;
+      height: 100vh;
+     
+}
+
+#mensaje {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: rgb(199, 232, 248);
+      background: linear-gradient(171deg, rgba(103, 208, 196, 0.774) 14%, rgb(31, 100, 150) 27%, rgb(51, 65, 133) 77%);
+}
+
+#letr-1{
+      font-size: 5em;
+      font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+
+}
+
+@media screen and (min-width: 320px) {
+      .container{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(171deg, rgba(103, 208, 196, 0.774) 14%, rgb(31, 100, 150) 27%, rgb(51, 65, 133) 77%);
+      }#letr{
+            font-size: 3em;
+            font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+            
+      }
+      #letr-1{
+            font-size: 1em;
+            font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+      }
+
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+      .container{
+            width: 100vw;
+            height: 100vh;
+            background: rgb(4,87,128);
+            background: linear-gradient(171deg, rgba(103, 208, 196, 0.774) 14%, rgb(31, 100, 150) 27%, rgb(51, 65, 133) 77%);
+      }#letr{
+            font-size: 6em;
+            font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+            
+      }
+      #letr-1{
+            font-size: 2em;
+            font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+      }
+}
+@media screen and (min-width: 1024px) {  
+      #letr{
+      font-size: 10em;
+      font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+ 
+      }
+      #letr-1{
+      font-size: 3em;
+      font-family: 'Noto Sans Display', sans-serif;
+      font-family: 'Rubik Dirt', cursive;
+      color: white;
+      }
+}
