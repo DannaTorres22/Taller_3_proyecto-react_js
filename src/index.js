@@ -7,13 +7,13 @@ import Login from './pages/login/Login.js';
 import Index from './pages/index/index';
 import Dashboard from './pages/dasboard/dashboard';
 import ERROR from './Components/Error/Error';
+import Users from './pages/usuario/User.js'
+import Modal from './pages/modal/listarH.js';
 
 
 
 
 import './index.css';
-
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +25,9 @@ root.render(
     <Route path='/login' element={<Login />}></Route>
     <Route path='/registro' element={<Registro />}></Route>
     <Route path='/*' element={<ERROR/>}></Route>
+    <Route path='/usuario' element={<Users />}></Route>
+    <Route path='/listarH' element={<Modal />}></Route>
+  
 
     
     </Routes>

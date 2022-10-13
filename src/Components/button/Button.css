@@ -1,0 +1,11 @@
+.button {
+    border-radius: 5%;
+    background-color: #337AB7;
+    padding: 0.5rem;
+    align-content: center;
+}
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    margin: 1rem;
+}

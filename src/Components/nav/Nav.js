@@ -10,9 +10,10 @@ function Nav() {
             </div>
             <div class="menu">
                 <a to="/" className="item">Inicio</a>
-                <Link to="/error" className="item">Ubícanos</Link> 
-                <a to="/registro" className="item">Opiniones</a>
-                <Link to="/login" class="item-0"><i class="fa-solid fa-user"></i> Iniciar Sesión</Link>            </div>
+                <Link to="/listarH" className="item">Ubícanos</Link> 
+                <Link to="/usuario" className="item">Opiniones</Link>
+                <Link to="/login" class="item-0"><i class="fa-solid fa-user"></i> Iniciar Sesión</Link>            
+                </div>
         </nav>
     );
 }
