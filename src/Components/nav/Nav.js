@@ -9,9 +9,10 @@ function Nav() {
                 <i class="fa-solid fa-bars hamb"></i>
             </div>
             <div class="menu">
-                <a to="/" className="item">Inicio</a>
-                <Link to="/listarH" className="item">Ubícanos</Link> 
-                <Link to="/usuario" className="item">Opiniones</Link>
+            <Link to="/" className="item">Inicio</Link>
+                    <Link to="/edit" className="item">Usuarios</Link>
+                    <Link to="/Listar" className="item">Ubícanos</Link>
+                    <Link to="/user/" className="item">Opiniones</Link>
                 <Link to="/login" class="item-0"><i class="fa-solid fa-user"></i> Iniciar Sesión</Link>            
                 </div>
         </nav>

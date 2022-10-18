@@ -1,0 +1,12 @@
+.t{
+    display: flex;
+    justify-content: center;
+}
+.ed, .re{
+    display: flex;
+    justify-content: center;
+    font-size: 120%; 
+    height: 2em;
+    width: 100%;
+    text-decoration: none;
+}

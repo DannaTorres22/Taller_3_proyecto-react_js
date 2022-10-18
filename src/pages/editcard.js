@@ -2,12 +2,13 @@ import { Card } from "react-bootstrap";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-function ListarA({users,setUplist,upList,handleOpen,setDataModal}){
 
-    /*1. Crear petición asíncrona*/
+function CardHuesped({users,setUplist,upList,handleClose,handleOpen,setDataModal}){
+
+  
     const url="https://hoteliakuepa.herokuapp.com/users"; 
 
-    /*2. Función para borrar un registro a partir del evento botón eliminar*/
+   
        const handleDelete=async()=>{
         
         Swal.fire({
@@ -49,7 +50,7 @@ function ListarA({users,setUplist,upList,handleOpen,setDataModal}){
         
     }
 
-    /*3. Función para editar un registro*/
+    
     const handleEdit=()=>{
         handleOpen();
         setDataModal(users);
@@ -72,5 +73,5 @@ function ListarA({users,setUplist,upList,handleOpen,setDataModal}){
      
     );
 }
-export default ListarA;
 
+export default CardHuesped;

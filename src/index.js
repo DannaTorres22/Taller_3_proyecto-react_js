@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Registro from './pages/registro/Registro';
@@ -7,11 +6,8 @@ import Login from './pages/login/Login.js';
 import Index from './pages/index/index';
 import Dashboard from './pages/dasboard/dashboard';
 import ERROR from './Components/Error/Error';
-import Users from './pages/usuario/User.js'
-import Modal from './pages/modal/listarH.js';
-
-
-
+import Listar from './pages/usuario/ListarUser';
+import Edit from './pages/edit';
 
 import './index.css';
 
@@ -25,8 +21,9 @@ root.render(
     <Route path='/login' element={<Login />}></Route>
     <Route path='/registro' element={<Registro />}></Route>
     <Route path='/*' element={<ERROR/>}></Route>
-    <Route path='/usuario' element={<Users />}></Route>
-    <Route path='/listarH' element={<Modal />}></Route>
+    <Route path='/Listar' element={<Listar/>}></Route>
+    <Route path='/edit' element={<Edit/>}></Route>
+
   
 
     
