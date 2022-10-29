@@ -5,7 +5,7 @@ import p2 from '../../Components/dashboard/p2.jpeg'
 
 function Dashboard(){
     return(
-      <div className="container">
+      <div className="container1">
         <Menu 
         persona="Angie vargas"
         correo="angie@gmail.com" />

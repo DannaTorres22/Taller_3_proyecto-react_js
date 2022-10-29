@@ -1,4 +1,10 @@
-.t{
+
+.container {
+    background: linear-gradient(171deg, rgba(103, 208, 196, 0.774) 14%, rgb(31, 100, 150) 27%, rgb(51, 65, 133) 77%);
+    max-width: 2000px;
+}
+
+.mb-3{
     display: flex;
     justify-content: center;
 }

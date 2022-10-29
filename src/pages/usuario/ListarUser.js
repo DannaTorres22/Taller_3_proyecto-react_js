@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
+
 function Listar() {
     const url="https://hoteliakuepa.herokuapp.com/users";
 
@@ -20,8 +21,9 @@ function Listar() {
        <div> 
 <h2>Listado de personas</h2>
 
-<table>
-  <tr>
+
+<table className='table'>
+  <thead class="thead-dark">
   <th>id</th>
     <th>tipodoc</th>
     <th>nombre</th>
@@ -34,7 +36,7 @@ function Listar() {
     <th>password</th>
     <th>tipouser</th>
     <th>img</th>
-  </tr>
+  </thead>
   {list.map((list, index) => (
                         <tr>
                             <td className="td-users">{list._id}</td>

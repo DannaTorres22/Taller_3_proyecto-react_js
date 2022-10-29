@@ -2,8 +2,11 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Container, Form, Modal, Row } from 'react-bootstrap';
 import Swal from 'sweetalert2';
+import {Link} from 'react-router-dom';
 import CardEstudiante from './editcard';
 import './usuario/edit.css'
+
+
 
 function ListHuesped(){
 
@@ -69,12 +72,17 @@ function ListHuesped(){
 
     //console.log(list);
     return(
+       
         
-       <Container>
+       <Container><br></br>
+       <h1>Usuarios registrados</h1>
+       <button id="boton"><Link to='/'>Volver a inicio</Link></button>
+
+
            <Row>
-            {
+            { 
                 list.map((est,index)=>(
-                    //<p>{est.nombre}</p> Esta información se iprime como un card
+                    //<p>{est.nombre}</p> Esta información se imprime como un card
 
                     <CardEstudiante
                     key={index}
@@ -89,6 +97,7 @@ function ListHuesped(){
                 ))
             }
             </Row>
+
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
