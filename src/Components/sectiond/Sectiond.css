@@ -1,0 +1,197 @@
+
+i#iconS{
+    transition: .3s all ease;
+     margin: 5%;
+     color: white;
+     margin-right: 10%;
+}
+
+
+.serv:hover{
+     background-color: var(--azuloscuro);
+     width: 90%;
+     height: 100%;
+}
+
+
+.informacion{
+   height: 100vh;
+   background-image: url(../img/registro.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.contenido{
+   width: 70%;
+   height: 90vh;
+   margin-left: 17%;
+   border-radius: 1%;
+   background-color: rgba(255, 255, 255, 0.74);
+   display: flex;
+   flex-direction: column;
+}
+
+
+.inferior{
+   display: flex;
+   flex-direction: row;
+}
+
+
+.foto{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.foto img{
+   border-radius: 5%;
+   margin-bottom: 5%;
+   width: 61%;
+   height: 10em;
+}
+
+
+.formulario{
+   width: 75%;
+   height: 140%;
+}
+
+
+.iconos{
+   width: 70%;
+   height: 7%;
+   background-color: #337AB7;
+   margin-top: 7%;
+   padding-bottom: 2%;
+   display: flex;
+   justify-content: center;
+}
+
+
+.iconos i{
+   font-size: 1.5em;
+   margin: 2% 8% 2% 8%;
+   color: white;
+}
+
+
+.contra{
+   width: 70%;
+   height: 14%;
+   border-radius: 2%;
+   background-color: var(--negro);
+   margin-top: 7%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+
+.contra a{
+   font-size: 1.5rem;
+   padding-bottom: 10%;
+   padding-top: 10%;
+}
+
+
+.contenido .Bienvenido{
+   width: 57%;
+   height: 10%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;    
+}
+
+
+.formulario{
+   width: 100%;
+   margin: 1em;
+   
+}
+
+
+.form-cont{
+   display: flex;
+   justify-content: space-around;
+}
+
+
+.form{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.form input{
+   width: 25em;
+   height: 2em;
+   border: none;
+   margin: 4px;
+   border-bottom: 2px solid var(--gris);
+}
+
+.form input[type=radio]{
+   width: 5em;
+   
+}
+
+
+.form .radio{
+   display: flex;
+   padding: 0em;
+   margin-left: -4%;
+}
+
+
+.form-cont-2{
+   display: flex;
+   margin: 0.5em;
+}
+
+
+.form a{
+   display: 	flex;
+   background: var(--negro);
+   width: 18rem;
+   height: 2.2em;
+   border-radius: .2em;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+
+
+.form label{
+   color: black;
+   font-weight: 200;
+   font-size: 1em;
+   padding: 0.2em;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+
+.form a h2{
+   font-weight: 100;
+}
+
+
+.iconos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.form.separador{
+   margin-left: -7%;
+}

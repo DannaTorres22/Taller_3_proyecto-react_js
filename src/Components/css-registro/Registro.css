@@ -23,12 +23,12 @@
  
   h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
-}#container-grid{
+}.container-grid{
     background:url(./registro.jpg);
     background-size: cover;
     display: grid;
     grid-template-columns:  repeat(30, 1fr); 
-    grid-template-rows: repeat(51, 19.75px);
+    grid-template-rows: repeat(69, 19.75px);
    
 }.logoRegi{
     background-color: #003564b0;
@@ -37,7 +37,7 @@
 }.formulario{
     background-color: rgba(255, 255, 255, 0.651);
     grid-column: 10/30;
-    grid-row: 3/ 50;
+    grid-row: 3/ 71;
     border-radius: 14px;
 }.img img{
     width: 80%;
@@ -91,16 +91,16 @@
     display: flex;
     justify-content: space-around;
 }.terminos{
-    margin-top: 8%;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}#inf{
+}.inf{
     width: 40%;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-}#inf .inputsRegistro, select{
+}.inf .inputsRegistro, select{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         margin-bottom: 0.3rem;
@@ -122,21 +122,6 @@
     display: none;
 }
 
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    transition: all 500ms ease;
-    opacity: 0;
-    visibility: hidden;
-}
-
-#btn-modal:checked~.modal {
-    opacity: 1;
-    visibility: visible;
-}
-
 .contenedor {
     width: 35%;
     margin: auto;
@@ -148,9 +133,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#btn-modal:checked~.modal .contenedor {
-    transform: translateY(0%);
-}
+
 
 .contenedor header {
     padding: 10px;
@@ -200,7 +183,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#btn-modal {
+.btn-modal {
     padding: 1em;
     margin-left: 35%;
     margin-top: 2em;
@@ -258,7 +241,7 @@
         
         display: flex;
         flex-direction: column;
-    }#inf{
+    }.inf{
         width: 80%;
         margin-left: 10%;
     }.form{

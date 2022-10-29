@@ -2,7 +2,7 @@ import './Error.css';
 import persona from './Hotelia horizontal blanco.svg' ;
 function error(){
       return(
-            <div class="container">
+            <div class="container1">
             <div id="mensaje">
                   <p id="letr">ERROR 404</p>
                   <a href=""><img src={persona} /></a>

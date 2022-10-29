@@ -18,31 +18,20 @@
 {
     margin: 0;
 }
-.loginBody
+
+section
 {
-    background: url(./habitacion.jpeg);
-    background-size: cover;
-    color: white;
-    padding-top: 7rem;
-    height: 99vh;
-}
-.sectionLogin
-{
-    
-    background: url(./bannerl.jpeg) no-repeat;
-    padding-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0.81;
-    width: 370px;
-    padding-bottom: 2rem;
-    border-radius: 2px;
+    background: url(./login.jpeg) no-repeat;
+    opacity: 0.82;
+    width: 314px;
+    height: 100%;
+   margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    
-
-    
+    padding: 1%;
 }
 
 .login
@@ -52,7 +41,7 @@
     align-items: center;
     padding: 1%;
 }
-i.login
+i
 {
     background-color: var(--Magenta);
     font-size: 2rem;
@@ -64,8 +53,6 @@ i.login
     align-items: center;
     margin-bottom: 1rem;
     margin-top: 2rem;
-    padding: 0.2rem;
-    justify-content: center;
 }
 .iniciosesion
 {
@@ -76,13 +63,10 @@ i.login
 }
 label
 {
-  
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        margin-bottom: 0.3rem;
-    
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -1px 1px rgb(97, 97, 97);
 }
-.usuario, .contraLogi
+input
 {
     padding-bottom: 8px;
     border: none;
@@ -114,8 +98,10 @@ p a
 p
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem ;
-    text-shadow: -1px 1px rgb(153 153 153 / 45%);
+    font-size: 0.8rem ;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: -1px 1px rgb(153, 153, 153);
 }
 #logo img
 {
@@ -139,7 +125,7 @@ p
     {
         margin: 0;
     }
-    .loginBody
+    body
     {
         background: url(./habitacion.jpeg) no-repeat;
         background-size: cover;
@@ -152,7 +138,7 @@ p
         width:10rem;
     }
     
-    .sectionLogin
+    section
     {
         display: flex;
         flex-direction: column;
@@ -171,7 +157,7 @@ p
         margin-top: -30%;
     
     }
-    i.login
+    i
     {
         background-color: var(--Magenta);
         font-size: 2rem;
@@ -196,7 +182,7 @@ p
         font-family: 'Roboto', sans-serif;
         text-shadow: -1px 1px rgb(97, 97, 97);
     }
-    .usuario,.contraLogi{
+    input{
         width: 100%;
         padding-bottom: 8px;
         border: none;
@@ -230,28 +216,26 @@ p
     {
         margin: 0;
     }
-    .loginBody
+    body
     {
-        background: url(./habitacion.jpeg) cover;
+        background: url(./habitacion.jpeg) no-repeat;
         background-size: cover;
-        height: 96vh;
+        height: 1000px;
         color: white;
-        padding-top: 1rem;
-        
-        
+        padding-top: 5rem;
     }#logo{
-        margin-bottom: -10%;
+        margin-bottom: -4%;
         margin-left: 2%;
     }
     
-    .sectionLogin
+    section
     {   
         width: 300px;
         margin-left: auto;
         margin-right: auto;
         background-size: cover;
-        margin-top: 7%;
-        height: 70%;
+        margin-top: 20%;
+        height: 40%;
     }
     .login
     {
@@ -261,7 +245,7 @@ p
         margin-top: -12%;
     
     }
-    i.login
+    i
     {
         background-color: var(--Magenta);
         font-size: 2rem;

@@ -3,7 +3,7 @@
 *{
       margin:0;
 }
-.container{
+.container1{
       width: 100vw;
       height: 100vh;
      
@@ -29,7 +29,7 @@
 }
 
 @media screen and (min-width: 320px) {
-      .container{
+      .container1{
             width: 100vw;
             height: 100vh;
             background: linear-gradient(171deg, rgba(103, 208, 196, 0.774) 14%, rgb(31, 100, 150) 27%, rgb(51, 65, 133) 77%);
@@ -49,7 +49,7 @@
 
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-      .container{
+      .container1{
             width: 100vw;
             height: 100vh;
             background: rgb(4,87,128);

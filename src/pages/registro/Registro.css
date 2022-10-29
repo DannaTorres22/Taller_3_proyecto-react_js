@@ -1,0 +1,73 @@
+
+/*movil*/
+@media screen and (min-width: 320px) and (max-width: 620px){
+   
+    .logo{
+        background-color: #05498579;
+        grid-column: 1/51;
+        grid-row: 3/10;
+    }.formulario{
+        grid-column: 2/30;
+        grid-row: 11/53;
+    }.img{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }.logo img{
+
+        width: 60%;
+    }.bienvenido{
+        display: none;
+    }.tittle{
+        font-size: 1.3em;
+    }.text{
+        margin-top: 1%;
+        display: flex;
+        font-size: 0.5em;
+    }.radio{
+        font-size: 1em;
+    }.doc{
+        display: flex;
+        flex-direction: column;
+    }.nom{
+        display: flex;
+        flex-direction: column;
+    }.dat{
+        display: flex;
+        flex-direction: column;
+    }.corre{
+        display: flex;
+        flex-direction: column;
+    }.orig{
+        display: flex;
+        flex-direction: column;
+    }.contra{
+        
+        display: flex;
+        flex-direction: column;
+    }.inf{
+        width: 80%;
+        margin-left: 10%;
+    }.form{
+        font-size: 1em;
+    }.terminos{
+        font-size: 0.8em;
+    }
+}
+/*portatil*/
+@media screen and (min-width: 621px) and (max-width:1024px) {
+    .bienvenido{
+        font-size: 0.7em;
+        margin-left: 5%;
+    }.tittle{
+        margin-top: 6%;
+        font-size: 2em;
+    }.form{
+        margin-top: 7%;
+    }.terminos{
+        margin-top: 5%;
+    }
+
+}
